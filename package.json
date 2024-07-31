@@ -1,0 +1,35 @@
+{
+  "author":
+  {
+    "name": "veto@myridia.com"
+  },
+  "dependencies":
+    {
+
+    },
+  "deprecated": false,
+  "description": "Vanilla JS utility functions for daily website usage",
+  "homepage": "https://calantas.org/readexcel",
+  "license": "GPL-3.0-or-later",
+  "main": "source/index.js",
+  "name": "get_excel",
+  "keywords": [
+  "csv",
+  "excel"
+  ],
+  "repository":
+  {
+    "type": "hg",
+    "url": "https://calantas.org/readexcel"
+  },
+  "scripts":
+  {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0"
+}
+
+
+
+
+
