@@ -1,4 +1,4 @@
-# Webserver Requirments for the js module
+# Web server Requirements for the JS module
 The webserver needs to serve .mjs files. In case of apache2 you can add a .htaccess file 
 ## Apache2 Example 
 ```console
