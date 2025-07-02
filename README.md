@@ -1,6 +1,6 @@
-# Webserver Requirments for js module
-The webserver needs to serve .mjs files, for apache you can add and .htaccess file 
-## Apache 
+# Webserver Requirments for the js module
+The webserver needs to serve .mjs files. In case of apache2 you can add a .htaccess file 
+## Apache2 Example 
 ```console
 <IfModule mod_mime.c>
   AddType text/javascript js mjs
@@ -8,15 +8,15 @@ The webserver needs to serve .mjs files, for apache you can add and .htaccess fi
 
 ```
 
-## Lighttpd server 
+## Lighttpd Example 
 ```console
 mimetype.assign   += ( ".mjs" => "text/javascript" )
 mimetype.assign   += ( ".map" => "text/css" )
 ```
 
-# Read and parse Excel files into array rows 
+# Read and parse Excel files into an array rows 
 
-# How to use Get_excel
+# How to use get_excel
    ```console
     import { Get_excel } from "node_modules/get_excel/src/index.js";
     document.querySelector("#input").addEventListener("change", function(){
